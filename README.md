@@ -19,3 +19,19 @@ We encourage you to:
     <img src="https://github.com/ElectronicCats/tutorials/assets/107638696/34ca694b-85bb-414c-9625-57cdc98eec9e" width=50%>
   </a>
 </p>
+
+# License
+
+<a>
+  <img src="https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png" height="150" />
+</a>
+
+Electronic Cats invests time and resources in providing this open-source design. Please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
+
+Designed by Electronic Cats.
+
+Firmware released under an GNU AGPL v3.0 license. See the LICENSE file for more information.
+
+Hardware released under an CERN Open Hardware Licence v1.2. See the LICENSE_HARDWARE file for more information.
+
+Electronic Cats is a registered trademark, please do not use if you sell these PCBs.
