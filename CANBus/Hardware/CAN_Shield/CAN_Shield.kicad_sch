@@ -7742,7 +7742,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc24e4f2-faed-4949-b148-fff529526958")
 		(property "Reference" "JP2"
@@ -7763,7 +7763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -7790,7 +7790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C492401"
+		(property "LCSC#" ""
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -7799,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" ""
 			(at 146.05 67.31 0)
 			(effects
 				(font
@@ -7808,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "PZ254V-11-02P "
+		(property "manf#" ""
 			(at 146.05 67.31 0)
 			(effects
 				(font

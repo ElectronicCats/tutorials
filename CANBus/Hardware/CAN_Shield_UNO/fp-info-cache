@@ -1,4 +1,4 @@
-23148971891185717
+23135211536473025
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+Batteries
+BAT-HLD-001
+
+
+0
+3
+2
+Batteries
+BAT-HLD-012-SMT-OTL
+
+
+0
+3
+2
+Batteries
+charger_EC_3.3V_battery
+
+
+0
+4
+4
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -63482,48 +63503,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-JS102011SAQN
-JS102011SAQN
-Switch
-0
-5
-5
-Library
-Microchip-TC4424EMF-Manufacturer_Recommended
-
-
-0
-15
-10
-Library
-SW-SMD_K3-1280S-K1
-
-
-0
-3
-3
-Library
-SW-SMD_SSSS811101
-
-
-0
-7
-7
-Library
-TC4424EMF
-
-
-0
-8
-8
-Library
-TC4424EMF(v3)
-
-
-0
-8
-8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -69818,6 +69797,13 @@ DFN NoLead 506AQ
 13
 9
 Package_DFN_QFN
+DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm
+DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
+Package_DFN_QFN
 DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.6mm
 DFN, 8 Pin (https://www.qorvo.com/products/d/da007268), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead
@@ -70170,6 +70156,13 @@ VDFN DFN 0.65mm
 Package_DFN_QFN
 DFN-14-1EP_3x4mm_P0.5mm_EP1.7x3.3mm
 DE Package; 14-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_14_05-08-1708.pdf)
+DFN 0.5
+0
+23
+15
+Package_DFN_QFN
+DFN-14-1EP_4x4mm_P0.5mm_EP2.86x3.6mm
+DFN14, 4x4, 0.5P; CASE 506CM (see ON Semiconductor 506CM.PDF)
 DFN 0.5
 0
 23
@@ -73296,6 +73289,13 @@ TI RNR0011A
 0
 20
 11
+Package_DFN_QFN
+Texas_VSON-HR-8_1.5x2mm_P0.5mm
+Texas  VSON-HR, 8 Pin (http://www.ti.com/lit/ds/symlink/tps62823.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas VSON-HR NoLead
+0
+8
+8
 Package_DFN_QFN
 Texas_WQFN-MR-100_3x3-DapStencil
 http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=szza059&fileType=pdf,http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=mpqf258&fileType=pdf,http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=LPPD235&fileType=pdf
@@ -94779,59 +94779,3 @@ Varistor VF
 0
 2
 2
-magspoof
-C393939
-
-
-0
-18
-9
-magspoof
-Coil_20t_35mm_0.2_0.2_0.6_0.3
-
-
-0
-2
-1
-magspoof
-Coil_25t_30mm_0.2_0.2_0.6_0.3
-
-
-0
-2
-1
-magspoof
-Coil_30t_30mm_0.2_0.2_0.6_0.3
-
-
-0
-2
-1
-magspoof
-Coil_30t_35mm_0.2_0.2_0.6_0.3
-
-
-0
-2
-1
-magspoof
-JS102011SAQN
-JS102011SAQN
-Switch
-0
-5
-5
-magspoof
-TC4424EMF
-
-
-0
-8
-8
-magspoof
-W25Q16JVUUIQ
-
-
-0
-10
-10
