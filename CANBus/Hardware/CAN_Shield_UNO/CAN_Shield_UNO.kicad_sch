@@ -4530,7 +4530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 165.862 62.23 90)
 			(effects
 				(font
@@ -4557,7 +4557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C166918"
+		(property "LCSC#" ""
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -4566,7 +4566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "MOUSER"
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -4575,7 +4575,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RTT0360R0FTP"
+		(property "manf#" "71-CRCW120660R0KNAIF"
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -4733,7 +4733,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "0805B104K500NT"
+		(property "manf#" " 0805B104K500NT"
 			(at 132.08 31.75 0)
 			(effects
 				(font
@@ -5307,7 +5307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 165.862 39.37 90)
 			(effects
 				(font
@@ -5334,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C166918"
+		(property "LCSC#" ""
 			(at 167.64 39.37 0)
 			(effects
 				(font
@@ -5343,7 +5343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "MOUSER"
 			(at 167.64 39.37 0)
 			(effects
 				(font
@@ -5352,7 +5352,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RTT0360R0FTP"
+		(property "manf#" "71-CRCW120660R0KNAIF"
 			(at 167.64 39.37 0)
 			(effects
 				(font
