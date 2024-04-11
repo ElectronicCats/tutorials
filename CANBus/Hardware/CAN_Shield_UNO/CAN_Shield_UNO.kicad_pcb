@@ -6718,7 +6718,7 @@
 	(footprint "kibuzzard-661829B1"
 		(layer "F.Cu")
 		(uuid "ec7af8df-4669-4ebb-8888-b01b1cb6467b")
-		(at 150.83 56.96 90)
+		(at 150.9 57.08 90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICI+IiwgIkZvbnRDb21ib0JveCI6ICJtcGx1cy0xbW4tbWVkaXVtIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJDQU5SWF9NSU5JTUEiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiIiwgIldpZHRoQ3RybCI6ICIifQ==")
 		(property "Reference" "kibuzzard-661829B1"
@@ -7422,7 +7422,7 @@
 	(footprint "kibuzzard-661829C4"
 		(layer "F.Cu")
 		(uuid "fb00e459-8912-4563-b893-b4f679d0e1c6")
-		(at 153.36 56.93 90)
+		(at 153.61 57.05 90)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICI+IiwgIkZvbnRDb21ib0JveCI6ICJtcGx1cy0xbW4tbWVkaXVtIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJDQU5UWF9NSU5JTUEiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIiLCAiUGFkZGluZ1RvcEN0cmwiOiAiIiwgIldpZHRoQ3RybCI6ICIifQ==")
 		(property "Reference" "kibuzzard-661829C4"
@@ -8061,7 +8061,7 @@
 			(at 0 4.313238 180)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "d0e174fd-f6d8-46c4-842e-f27d089387dd")
+			(uuid "0dc9a5f5-cfb8-4b69-9f84-3d753bcd8319")
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -8073,7 +8073,7 @@
 			(at 0 -4.313238 180)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "ac9acfe7-a39a-4930-9c93-f41900ab9f02")
+			(uuid "42fbc4f3-d925-4d08-90ff-46d9d9f4186a")
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -8137,7 +8137,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "b05178cf-3843-4573-a67f-c9175e44a0f6")
+			(uuid "c3b6c84c-1d2f-42dd-a2a6-fa34721647d1")
 		)
 		(fp_poly
 			(pts
@@ -8173,7 +8173,7 @@
 			)
 			(fill solid)
 			(layer "B.SilkS")
-			(uuid "68b4b788-9cc1-4848-889a-3070edd661f6")
+			(uuid "016ada31-2e5e-46b0-8084-cb3984585098")
 		)
 	)
 	(footprint "kibuzzard-66182154"
