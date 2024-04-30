@@ -12,11 +12,12 @@
 
 constexpr auto sendInterval {1000lu};
 auto sendNow {0lu}; 
+int relayLamp = 1;
 
 void setup() {
   Serial.begin(9600);
   while (!Serial);
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(relayLamp, OUTPUT);
   Serial.println("Node 7: Inductive sensor state receiver");
 
   // start the CAN bus at 500 kbps
@@ -34,11 +35,11 @@ void loop() {
     if (CAN.packetId() == 37){
       while (CAN.available()) {
       biState = CAN.read();
-      if (biState == 1){
-        digitalWrite(LED_BUILTIN, HIGH);
+      if (biState == 10){
+        digitalWrite(relayLamp, HIGH);
       }
-      if (biState == 0){
-        digitalWrite(LED_BUILTIN, LOW);
+      if (biState == 5){
+        digitalWrite(relayLamp, LOW);
       }
       Serial.println(biState);
       }

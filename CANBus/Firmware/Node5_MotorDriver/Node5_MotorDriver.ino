@@ -14,7 +14,7 @@ constexpr auto sendInterval {1000lu};
 auto sendNow {0lu};
 int motorDriver = 2;
 int speed = 0;  
-int slowDown =5;  
+int slowDown = 20;  
 
 void setup() {
   Serial.begin(9600);
@@ -52,5 +52,6 @@ void loop() {
       }  
     }
   }
+  Serial.println(speed);
 }
 

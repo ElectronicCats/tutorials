@@ -58,7 +58,7 @@ void loop() {
         case 3: 
           Serial.println("Tacometer: ");
           for (int t = 0; t <= sizeMsg - 1; t++){
-            if (incomingMsg[t] <= 130){
+            if (incomingMsg[t] <= 25){
               controlMotor = 61;
             }
             else{
