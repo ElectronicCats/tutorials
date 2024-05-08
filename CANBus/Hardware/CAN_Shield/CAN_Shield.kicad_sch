@@ -7612,7 +7612,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" " C424093"
+		(property "LCSC#" ""
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -7621,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "MOUSER"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -7630,7 +7630,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " MCP73831T-2ACI/OT"
+		(property "manf#" "595-TCAN1051HGVDR"
 			(at 121.92 67.31 0)
 			(effects
 				(font

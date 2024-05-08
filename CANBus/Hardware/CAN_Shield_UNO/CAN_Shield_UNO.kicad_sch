@@ -4865,7 +4865,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " 0805B104K500NT"
+		(property "manf#" "0805B104K500NT"
 			(at 132.08 31.75 0)
 			(effects
 				(font
@@ -5155,7 +5155,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC#" "C424093"
+		(property "LCSC#" ""
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -5164,7 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proveedor" "LCSC"
+		(property "Proveedor" "MOUSER"
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -5173,7 +5173,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "MCP73831T-2ACI/OT"
+		(property "manf#" "595-TCAN1051HGVDR"
 			(at 143.51 50.8 0)
 			(effects
 				(font
