@@ -3,53 +3,60 @@
  * Copyright (c) Sandeep Mistry. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project root for full license information.
  *
- * Based on CANReceiver example from CAN library
+ * Based on CANRead example from Arduino_CAN library
  * This code reads data from the CAN Bus and controls the RPMs for a DC motor
  *** Written by Electronic Cats team ***
  */
 
-#include <CAN.h>
+#include <Arduino_CAN.h>
 
-constexpr auto sendInterval {1000lu};
-auto sendNow {0lu};
-int motorDriver = 2;
-int speed = 0;  
-int slowDown = 20;  
+int motorDriver = 3, enablePin = 4; //Pins for L298N motor driver module
+int speed = 50; //Initial speed
+int accelerate = 20; //Acceleration rate
+int nodeNumber; //Sender's node number
+byte incomingMsg[8], sizeMsg; //CAN buffer information
 
 void setup() {
   Serial.begin(9600);
+  while (!Serial) { }
+  pinMode(enablePin, OUTPUT); //Motor-driver "enabled" signal
   Serial.println("Node 7: Motor driver");
 
-  // start the CAN bus at 500 kbps
-  if (!CAN.begin(500E3)) {
+  if (!CAN.begin(CanBitRate::BR_500k)) { // start the CAN bus at 500 kbps
     Serial.println("Starting CAN failed!");
     while (1);
   }
+  digitalWrite(enablePin, HIGH); //To enable motor-driver
 }
 
 void loop() {
-  // send packet: id is 11 bits, packet can contain up to 8 bytes of data
-  int packetSize = CAN.parsePacket();
-  int speedCommand;
-  if (packetSize || CAN.packetId() != -1) {
-    // received a packet
-    if (CAN.packetId() == 37){
-      while (CAN.available()) {
-        speedCommand = CAN.read();
-        analogWrite(motorDriver, speed); 
-        if (speedCommand == 65){
-          if (speed >= 100) {
-            speed = speed - slowDown;
-          }
-          delay(100);
+  int speedCommand; //PWM for motor-driver to modify the current speed
+  if (CAN.available()) {
+    CanMsg const msgIn = CAN.read(); //Buffer received from CAN bus
+    nodeNumber = int(msgIn.id);
+    sizeMsg = byte(msgIn.data_length); //Size of the received message
+    for (int i=0; i <= sizeMsg - 1; i++) {
+      incomingMsg[i]=byte(msgIn.data[i]); //Copy every byte received into a new array
+    }
+    if(nodeNumber == 37){ //If the data received comes from the Main Device (node 37) do...
+      for (int sc = 0; sc <= sizeMsg - 1; sc++){
+        if (sc > 0){
+          speedCommand = incomingMsg[sc]; //Read the speed command: accelerate or descelerate
         }
-        if (speedCommand == 61){
-          if (speed <= 255) {
-            speed = speed + slowDown;
-            delay(100);
-          }
-        }
-      }  
+      }
+    }
+    analogWrite(motorDriver, speed); //write the PWM to the motor-driver
+    if (speedCommand == 64){ //Descelerate
+      if (speed >= 100) {
+        speed = speed - accelerate;
+      }
+      delay(100);
+    }
+    if (speedCommand == 61){ //Accelerate
+      if (speed <= 255) {
+        speed = speed + accelerate;
+        delay(100);
+      }
     }
   }
   Serial.println(speed);

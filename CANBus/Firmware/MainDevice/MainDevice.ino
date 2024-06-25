@@ -7,21 +7,22 @@
  * Based on ReadCAN and WriteCAN examples from Arduino_PortentaMachineControl library.
  * This code reads a digital input (inductive sensor) from Portenta Machine Control and writes info to the CAN Bus.
  * This code reads a information from the CAN Bus to obtain data from a Tacometer, Barometric & temperature sensor.
- * This code writes information to the CAN Bus to control a motor driver.
+ * This code writes information to the CAN Bus to control a motor driver and a lamp status.
  *** Written by Electronic Cats team ***
  */
 
 #include <Arduino_PortentaMachineControl.h>
 
-static uint32_t const CAN_ID = 37ul;
+static uint32_t const CAN_ID = 37ul; //Node ID for this device is 37
 constexpr auto receiveInterval {1000lu};
 auto receiveNow {0lu};
 byte incomingMsg[8], sizeMsg;
 int nodeNumber;
-byte controlMotor;
+byte controlMotor, controlLamp;
 
 void setup() {
   Serial.begin(9600);
+  while (!Serial) { }
   Wire.begin();
   if (!MachineControl_DigitalInputs.begin()) {
     Serial.println("Failed to initialize the digital input GPIO expander!");
@@ -59,10 +60,10 @@ void loop() {
           Serial.println("Tacometer: ");
           for (int t = 0; t <= sizeMsg - 1; t++){
             if (incomingMsg[t] <= 25){
-              controlMotor = 61;
+              controlMotor = 61; //accelerate
             }
             else{
-              controlMotor = 65;
+              controlMotor = 64; //descelerate
             }
             Serial.print(incomingMsg[t]);
           }
@@ -74,7 +75,9 @@ void loop() {
         break;
       }
     }
-    const uint8_t dataToWrite[] = {MachineControl_DigitalInputs.read(DIN_READ_CH_PIN_00), controlMotor};
+    controlLamp = MachineControl_DigitalInputs.read(DIN_READ_CH_PIN_00);
+    Serial.println(controlLamp);
+    const uint8_t dataToWrite[] = {controlLamp, controlMotor};
     CanMsg msgOut(CAN_ID, sizeof(dataToWrite), dataToWrite);
     int const rc = MachineControl_CANComm.write(msgOut);
     if (rc <= 0) {
