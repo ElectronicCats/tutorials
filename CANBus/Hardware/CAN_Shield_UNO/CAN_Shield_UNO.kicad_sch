@@ -2758,6 +2758,10 @@
 		(uuid "edfd6a90-4ee1-4e66-bafb-8eefbc065390")
 	)
 	(no_connect
+		(at 128.27 55.88)
+		(uuid "31d3d934-9c8b-448e-bca5-6c12f8863f42")
+	)
+	(no_connect
 		(at 34.29 31.75)
 		(uuid "d181157c-7812-47e5-a0cf-9580c905fc86")
 	)
