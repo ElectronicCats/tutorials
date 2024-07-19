@@ -1,5 +1,5 @@
 /*
- * Arduino DUE - Write Example
+ * Arduino UNO WiFi - Write Example
  * Copyright (c) Sandeep Mistry. All rights reserved.
  * Licensed under the MIT license. See LICENSE file in the project root for full license information.
  *
@@ -22,7 +22,7 @@ void setup() {
   pinMode(enablePin, OUTPUT); //Motor-driver "enabled" signal
   Serial.println("Node 7: Motor driver");
 
-  if (!CAN.begin(CanBitRate::BR_500k)) { // start the CAN bus at 500 kbps
+  if (!CAN.begin(CanBitRate::BR_500k)) { // If the CAN bus at 500 kbps failed to start
     Serial.println("Starting CAN failed!");
     while (1);
   }
@@ -59,6 +59,5 @@ void loop() {
       }
     }
   }
-  Serial.println(speed);
 }
 

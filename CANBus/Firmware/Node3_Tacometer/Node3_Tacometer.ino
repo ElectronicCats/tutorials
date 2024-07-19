@@ -30,7 +30,7 @@ void setup() {
   Serial.println("Node 3: Tacometer"); 
   pulses = 0;
 
-  if (!CAN.begin(CanBitRate::BR_500k)) { // start the CAN bus at 500 kbps
+  if (!CAN.begin(CanBitRate::BR_500k)) { // If the CAN bus at 500 kbps failed to start
     Serial.println("Starting node 3 failed!");
     while (1);
   }
@@ -53,7 +53,7 @@ void loop() {
       Serial.println(rc);
       while(1) ;
     }
-    Serial.println(" done");
+    Serial.println(" done\n");
     pulses = 0;
     sendNow = millis();
   }

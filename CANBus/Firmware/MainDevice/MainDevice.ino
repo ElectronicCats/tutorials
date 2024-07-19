@@ -14,27 +14,27 @@
 #include <Arduino_PortentaMachineControl.h>
 
 static uint32_t const CAN_ID = 37ul; //Node ID for this device is 37
-constexpr auto receiveInterval {1000lu};
-auto receiveNow {0lu};
-byte incomingMsg[8], sizeMsg;
-int nodeNumber;
-byte controlMotor, controlLamp;
+constexpr auto receiveInterval {200lu}; //Delay time between readings
+auto receiveNow {0lu}; //Used to refresh the delay time
+byte incomingMsg[8], sizeMsg; //To manage the incomming information
+int nodeNumber; //Node from which we are receiving information
+byte controlMotor, controlLamp; //Aux for controlling actuators
 
 void setup() {
   Serial.begin(9600);
   while (!Serial) { }
   Wire.begin();
-  if (!MachineControl_DigitalInputs.begin()) {
+  if (!MachineControl_DigitalInputs.begin()) { // If the digital inputs failed to start
     Serial.println("Failed to initialize the digital input GPIO expander!");
   }
-  if (!MachineControl_CANComm.begin(CanBitRate::BR_500k)) {
-    Serial.println("CAN init failed.");
+  if (!MachineControl_CANComm.begin(CanBitRate::BR_500k)) { // If the CAN bus at 500 kbps failed to start
+    Serial.println("CAN Main init failed.");
     while(1) ;
   }
 }
 
 void loop() {
-  if (millis() - receiveInterval > receiveNow){
+  //if (millis() - receiveInterval > receiveNow){
     if (MachineControl_CANComm.available()) {
       CanMsg const msgIn = MachineControl_CANComm.read();
       nodeNumber = int(msgIn.id);
@@ -60,27 +60,29 @@ void loop() {
           Serial.println("Tacometer: ");
           for (int t = 0; t <= sizeMsg - 1; t++){
             if (incomingMsg[t] <= 25){
-              controlMotor = 61; //accelerate
+              controlMotor = 61; //ASCII "a" to accelerate
             }
             else{
-              controlMotor = 64; //descelerate
+              controlMotor = 64; //ASCII "d" to descelerate
             }
             Serial.print(incomingMsg[t]);
           }
           Serial.println(" km/h");
-          Serial.println(controlMotor);
         break;
         default:
           Serial.print("No data received");
         break;
       }
     }
+    //receiveNow = millis();
+  //}
+  if (millis() - receiveInterval > receiveNow){
     controlLamp = MachineControl_DigitalInputs.read(DIN_READ_CH_PIN_00);
     Serial.println(controlLamp);
     const uint8_t dataToWrite[] = {controlLamp, controlMotor};
     CanMsg msgOut(CAN_ID, sizeof(dataToWrite), dataToWrite);
     int const rc = MachineControl_CANComm.write(msgOut);
-    if (rc <= 0) {
+    if (rc <= 0) { //If something went wrong during the writing process
       Serial.print("CAN write failed with error code: ");
       Serial.println(rc);
       while(1) ;

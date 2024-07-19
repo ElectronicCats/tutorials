@@ -13,14 +13,16 @@
 int relayLamp = 1; //Output to the relay to turn-on a 12V DC lamp
 int nodeNumber; //Sender's node number
 byte incomingMsg[8], sizeMsg; //CAN buffer information
+constexpr auto receiveInterval {200lu}; //Delay time between readings
+auto receiveNow {0lu}; //Used to refresh the delay time
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  while (!Serial) {};
   pinMode(relayLamp, OUTPUT); //Relay "enabled" signal
   Serial.println("Node 7: Inductive sensor state receiver");
 
-  if (!CAN.begin(CanBitRate::BR_500k)) { // start the CAN bus at 500 kbps
+  if (!CAN.begin(CanBitRate::BR_500k)) { // If the CAN bus at 500 kbps failed to start
     Serial.println("Starting node 7 failed!");
     while (1);
   }
@@ -28,23 +30,26 @@ void setup() {
 
 void loop() {
   int biState; //Variable to save the status (ON/OFF) commanded in the buffer
-  if (CAN.available())
-  {
-    CanMsg const msgIn = CAN.read(); //Buffer received from CAN bus
-    Serial.println(msgIn);
-    nodeNumber = int(msgIn.id);
-    sizeMsg = byte(msgIn.data_length); //Size of the received message
-    for (int i=0; i <= sizeMsg - 1; i++) {
-      incomingMsg[i]=byte(msgIn.data[i]); //Copy every byte received into a new array
+  if (millis() - receiveInterval > receiveNow){
+    if (CAN.available())
+    {
+      CanMsg const msgIn = CAN.read(); //Buffer received from CAN bus
+      Serial.println(msgIn);
+      nodeNumber = int(msgIn.id);
+      sizeMsg = byte(msgIn.data_length); //Size of the received message
+      for (int i=0; i <= sizeMsg - 1; i++) {
+        incomingMsg[i]=byte(msgIn.data[i]); //Copy every byte received into a new array
+      }
+      if(nodeNumber == 37){ //If the data received comes from the Main Device (node DEC 37, HEX 25) do...
+        biState = incomingMsg[0];
+      }
+      if (biState == 0x00){ //Turn on (inverse logic)
+        digitalWrite(relayLamp, LOW);
+      }
+      if (biState == 0x01){ // Turn off (inverse logic)
+        digitalWrite(relayLamp, HIGH);
+      }
     }
-    if(nodeNumber == 0x25){ //If the data received comes from the Main Device (node DEC 37, HEX 25) do...
-          biState = incomingMsg[0];
-    }
-    if (biState == 0x00){ //Turn on (inverse logic)
-      digitalWrite(relayLamp, HIGH);
-    }
-    if (biState == 0x01){ // Turn off (inverse logic)
-      digitalWrite(relayLamp, LOW);
-    }
+    receiveNow = millis();
   }
 }
