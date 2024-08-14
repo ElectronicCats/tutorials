@@ -18,7 +18,6 @@ auto receiveNow {0lu}; //Used to refresh the delay time
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial) {};
   pinMode(relayLamp, OUTPUT); //Relay "enabled" signal
   Serial.println("Node 7: Inductive sensor state receiver");
 

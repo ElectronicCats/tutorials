@@ -23,7 +23,6 @@ auto sendNow {0lu}; //Used to refresh the delay time
 
 void setup() {
   Serial.begin(9600);
-  while(!Serial) {};
   Serial.println("Node 1: Barometric & temperature sensor"); 
   status = bme.begin();  //Initialize the BME Sensor
   if (!status) { //If BME sensor failed to initialize:

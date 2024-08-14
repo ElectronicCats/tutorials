@@ -22,7 +22,6 @@ byte controlMotor, controlLamp; //Aux for controlling actuators
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial) { }
   Wire.begin();
   if (!MachineControl_DigitalInputs.begin()) { // If the digital inputs failed to start
     Serial.println("Failed to initialize the digital input GPIO expander!");
@@ -34,48 +33,45 @@ void setup() {
 }
 
 void loop() {
-  //if (millis() - receiveInterval > receiveNow){
-    if (MachineControl_CANComm.available()) {
-      CanMsg const msgIn = MachineControl_CANComm.read();
-      nodeNumber = int(msgIn.id);
-      sizeMsg = byte(msgIn.data_length);
-      for (int i=0; i <= sizeMsg - 1; i++) {
-        incomingMsg[i]=byte(msgIn.data[i]);
-      }
-      switch(nodeNumber){
-        case 1: 
-          Serial.println("Barometric & temperature: ");
-          for (int bt = 0; bt <= sizeMsg - 1; bt++){
-            if (bt < 1){
-              Serial.print(incomingMsg[bt]);
-              Serial.println("° C");
-            }
-            else{
-              Serial.print(char(incomingMsg[bt]));
-            }
-          }
-          Serial.println("hPA");
-        break;
-        case 3: 
-          Serial.println("Tacometer: ");
-          for (int t = 0; t <= sizeMsg - 1; t++){
-            if (incomingMsg[t] <= 25){
-              controlMotor = 61; //ASCII "a" to accelerate
-            }
-            else{
-              controlMotor = 64; //ASCII "d" to descelerate
-            }
-            Serial.print(incomingMsg[t]);
-          }
-          Serial.println(" km/h");
-        break;
-        default:
-          Serial.print("No data received");
-        break;
-      }
+  if (MachineControl_CANComm.available()) {
+    CanMsg const msgIn = MachineControl_CANComm.read();
+    nodeNumber = int(msgIn.id);
+    sizeMsg = byte(msgIn.data_length);
+    for (int i=0; i <= sizeMsg - 1; i++) {
+      incomingMsg[i]=byte(msgIn.data[i]);
     }
-    //receiveNow = millis();
-  //}
+    switch(nodeNumber){
+      case 1: 
+        Serial.println("Barometric & temperature: ");
+        for (int bt = 0; bt <= sizeMsg - 1; bt++){
+          if (bt < 1){
+            Serial.print(incomingMsg[bt]);
+            Serial.println("° C");
+          }
+          else{
+            Serial.print(char(incomingMsg[bt]));
+          }
+        }
+        Serial.println("hPA");
+      break;
+      case 3: 
+        Serial.println("Tacometer: ");
+        for (int t = 0; t <= sizeMsg - 1; t++){
+          if (incomingMsg[t] <= 25){
+            controlMotor = 61; //ASCII "a" to accelerate
+          }
+          else{
+            controlMotor = 64; //ASCII "d" to descelerate
+          }
+          Serial.print(incomingMsg[t]);
+        }
+        Serial.println(" km/h");
+      break;
+      default:
+        Serial.print("No data received");
+      break;
+    }
+  }
   if (millis() - receiveInterval > receiveNow){
     controlLamp = MachineControl_DigitalInputs.read(DIN_READ_CH_PIN_00);
     Serial.println(controlLamp);

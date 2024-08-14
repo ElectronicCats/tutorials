@@ -18,7 +18,6 @@ byte incomingMsg[8], sizeMsg; //CAN buffer information
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial) { }
   pinMode(enablePin, OUTPUT); //Motor-driver "enabled" signal
   Serial.println("Node 7: Motor driver");
 
