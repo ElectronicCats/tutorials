@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Imre\Desktop\CAN_Shield_UNO\CAN_Shield_UNO.kicad_sch</source>
+    <date>2025-04-03T01:54:20+0200</date>
+    <tool>Eeschema 9.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>mar. 31 mars 2015</date>
+        <source>CAN_Shield_UNO.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">810-CEU4J2X7R1H104K</field>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">CEU4J2X7R1H104K125AE</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="810-CEU4J2X7R1H104K"/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="manf#" value="CEU4J2X7R1H104K125AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>175a70c7-f9ea-436e-92c0-6f53cf613dd4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">810-CEU4J2X7R1H104K</field>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">CEU4J2X7R1H104K125AE</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="810-CEU4J2X7R1H104K"/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="manf#" value="CEU4J2X7R1H104K125AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9106aac-ab14-4ced-8170-15f8e0230c2d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">C38141</field>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">CEU4J2X7R2A102M125AE</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_serial_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="C38141"/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="manf#" value="CEU4J2X7R2A102M125AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>850e1eb0-3d59-4af2-84b1-67920cf95784</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4,7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">C38141</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#"> CNA6P1X7R2A475K250AE</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="C38141"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="manf#" value=" CNA6P1X7R2A475K250AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4857cf6-991a-476e-85fa-d53fc12802ff</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4,7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">C38141</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#"> CNA6P1X7R2A475K250AE</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="C38141"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="manf#" value=" CNA6P1X7R2A475K250AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b92ff10a-9d82-4d30-8cf0-e2aed80b92de</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4,7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">C38141</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#"> CNA6P1X7R2A475K250AE</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="C38141"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="manf#" value=" CNA6P1X7R2A475K250AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f51c584d-a714-4084-8340-7308763d415c</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4,7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">C38141</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#"> CNA6P1X7R2A475K250AE</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="C38141"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="manf#" value=" CNA6P1X7R2A475K250AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>569fa684-f456-4197-9e54-b44457682676</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100uF 35V</value>
+      <footprint>PCM_Capacitor_SMD_AKL:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf</datasheet>
+      <description>EEE-FPV101XAP</description>
+      <fields>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:CP_Elec_6.3x7.7</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1184.pdf</field>
+        <field name="Description">EEE-FPV101XAP</field>
+      </fields>
+      <libsource lib="PCM_Capacitor_AKL" part="CP_SMD_D6.3mm_H7.7mm" description="SMD Electrolytic Capacitor, 6.3mm Diameter, 7.7mm Height, European Symbol, Alternate KiCad Library"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor polarized eu smd electrolytic 6.3x7.7mm 6.3mm"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e236e82f-ac55-4920-86dc-582c03908872</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4,7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC#">C38141</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#"> CNA6P1X7R2A475K250AE</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_soft_cna_en.pdf</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC#" value="C38141"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="manf#" value=" CNA6P1X7R2A475K250AE"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1892f084-14d6-4adc-ae4c-318c7c1b9549</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>ESDA041-1JY</value>
+      <footprint>PCM_Diode_SMD_AKL:D_SOD-323</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/esda041_1jy-1849178.pdf</datasheet>
+      <description>SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SOD-323</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/esda041_1jy-1849178.pdf</field>
+        <field name="Description">SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Diode_TVS_AKL" part="SD05" description="SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode unidirectional TVS SD05"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb920540-a87a-489a-8408-d5e86bb4a481</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>ESDA041-1JY</value>
+      <footprint>PCM_Diode_SMD_AKL:D_SOD-323</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/esda041_1jy-1849178.pdf</datasheet>
+      <description>SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SOD-323</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/esda041_1jy-1849178.pdf</field>
+        <field name="Description">SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Diode_TVS_AKL" part="SD05" description="SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode unidirectional TVS SD05"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8c3d93c-22f0-4824-990c-3fda188a9a9a</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>STPS1L40ZF</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</datasheet>
+      <description>40V 1A Schottky Power Rectifier Diode, SOD-123</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</field>
+        <field name="Description">40V 1A Schottky Power Rectifier Diode, SOD-123</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c13e8d0-6cad-478b-be0d-abd434ede3a6</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>STPS1L40ZF</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</datasheet>
+      <description>40V 1A Schottky Power Rectifier Diode, SOD-123</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</field>
+        <field name="Description">40V 1A Schottky Power Rectifier Diode, SOD-123</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e6d249e-a1a0-468c-9bd5-353d8c58f0b7</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>STPS1L40ZF</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</datasheet>
+      <description>40V 1A Schottky Power Rectifier Diode, SOD-123</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</field>
+        <field name="Description">40V 1A Schottky Power Rectifier Diode, SOD-123</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>804d0ffd-e80f-44a8-9753-003f4684416a</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>STPS1L40ZF</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</datasheet>
+      <description>40V 1A Schottky Power Rectifier Diode, SOD-123</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</field>
+        <field name="Description">40V 1A Schottky Power Rectifier Diode, SOD-123</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9549b400-c85a-4f1f-922e-b08dc2c522f7</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>STPS1L40ZF</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</datasheet>
+      <description>40V 1A Schottky Power Rectifier Diode, SOD-123</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://hu.mouser.com/datasheet/2/389/stps1l40-1851775.pdf</field>
+        <field name="Description">40V 1A Schottky Power Rectifier Diode, SOD-123</field>
+      </fields>
+      <libsource lib="Diode" part="MBR0540" description="40V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f63115b6-95bf-47a1-b398-f70b444fb589</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>SMBJ16A</value>
+      <footprint>PCM_Diode_SMD_AKL:D_SMB</footprint>
+      <datasheet>https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf</datasheet>
+      <description>SMB Unidirectional TVS diode, 16V, 600W, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SMB</field>
+        <field name="Datasheet">https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf</field>
+        <field name="Description">SMB Unidirectional TVS diode, 16V, 600W, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Diode_TVS_AKL" part="SMBJ16A" description="SMB Unidirectional TVS diode, 16V, 600W, Alternate KiCAD Library"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode unidirectional TVS SMBJ-A"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b56c734d-0b31-44fe-a3e5-b8f2a32122b6</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>STPS3L40UF</value>
+      <footprint>PCM_Diode_SMD_AKL:D_SMBFL</footprint>
+      <datasheet>https://www.tme.eu/Document/dd24d122e362fb2fc1d97f4b9052163a/stps3l40.pdf</datasheet>
+      <description>SMBFL Schottky diode, 40V, 3A, Alternate KiCAD Library</description>
+      <fields>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SMBFL</field>
+        <field name="Datasheet">https://www.tme.eu/Document/dd24d122e362fb2fc1d97f4b9052163a/stps3l40.pdf</field>
+        <field name="Description">SMBFL Schottky diode, 40V, 3A, Alternate KiCAD Library</field>
+      </fields>
+      <libsource lib="PCM_Diode_Schottky_AKL" part="STPS3L40UF" description="SMBFL Schottky diode, 40V, 3A, Alternate KiCAD Library"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky STPS3L40UF"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>205f9cf6-5e57-44ba-accb-b30a3fe69d27</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TL4050A50IDBZT</value>
+      <footprint>SOT95P237X112-3N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/TL4050A</datasheet>
+      <description>Precision micropower shunt voltage reference</description>
+      <fields>
+        <field name="Height">1.12</field>
+        <field name="Mouser Part Number">595-TL4050A50IDBZT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL4050A50IDBZT?qs=ghbYPfulOXuRrp0sOcZ8iQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TL4050A50IDBZT</field>
+        <field name="Footprint">SOT95P237X112-3N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/TL4050A</field>
+        <field name="Description">Precision micropower shunt voltage reference</field>
+      </fields>
+      <libsource lib="TL4050A50IDBZT" part="TL4050A50IDBZT" description="Precision micropower shunt voltage reference"/>
+      <property name="Height" value="1.12"/>
+      <property name="Mouser Part Number" value="595-TL4050A50IDBZT"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL4050A50IDBZT?qs=ghbYPfulOXuRrp0sOcZ8iQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TL4050A50IDBZT"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60e297d9-2d0b-4ae3-8038-59cbf0ccfb9e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Power</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER/DIGIKEY</field>
+        <field name="manf#">PRT-14322 </field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER/DIGIKEY"/>
+      <property name="manf#" value="PRT-14322 "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d71773</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Digital/PWM</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER/DIGIKEY</field>
+        <field name="manf#">PRT-14322 </field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER/DIGIKEY"/>
+      <property name="manf#" value="PRT-14322 "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d72368</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Analog</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER/DIGIKEY</field>
+        <field name="manf#">PRT-14322 </field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER/DIGIKEY"/>
+      <property name="manf#" value="PRT-14322 "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d72f1c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Digital/PWM</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER/DIGIKEY</field>
+        <field name="manf#">PRT-14322 </field>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER/DIGIKEY"/>
+      <property name="manf#" value="PRT-14322 "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056d734d0</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>~</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <description>Generic shielded connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC#">C18197999</field>
+        <field name="Proveedor">LCSC</field>
+        <field name="manf#">5-146256-4</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic shielded connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic_Shielded" part="Conn_02x04_Counter_Clockwise_Shielded" description="Generic shielded connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC#" value="C18197999"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="manf#" value="5-146256-4"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??-1SH*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e2903ea-5fff-4816-9d5a-0ff8513db5bd</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Grove connector</value>
+      <footprint>110990030</footprint>
+      <datasheet>https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf</datasheet>
+      <description>Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)</description>
+      <fields>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">713-110990030</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Seeed-Studio/110990030?qs=1%252B9yuXKSi8Dw9fpnq%252BdNzQ%3D%3D</field>
+        <field name="Manufacturer_Name">Seeed Studio</field>
+        <field name="Manufacturer_Part_Number">110990030</field>
+        <field name="Footprint">110990030</field>
+        <field name="Datasheet">https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf</field>
+        <field name="Description">Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)</field>
+      </fields>
+      <libsource lib="110990030" part="110990030" description="Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)"/>
+      <property name="Height" value="8.6"/>
+      <property name="Mouser Part Number" value="713-110990030"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Seeed-Studio/110990030?qs=1%252B9yuXKSi8Dw9fpnq%252BdNzQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Seeed Studio"/>
+      <property name="Manufacturer_Part_Number" value="110990030"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ada81ab1-7d79-451d-8f50-d447a57926c4</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">Mouser</field>
+        <field name="manf#">1729128</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-2_P5.08mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="Mouser"/>
+      <property name="manf#" value="1729128"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0931eb2-8a2d-4598-8fb9-0b599264112e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Grove connector</value>
+      <footprint>110990030</footprint>
+      <datasheet>https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf</datasheet>
+      <description>Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)</description>
+      <fields>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">713-110990030</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Seeed-Studio/110990030?qs=1%252B9yuXKSi8Dw9fpnq%252BdNzQ%3D%3D</field>
+        <field name="Manufacturer_Name">Seeed Studio</field>
+        <field name="Manufacturer_Part_Number">110990030</field>
+        <field name="Footprint">110990030</field>
+        <field name="Datasheet">https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf</field>
+        <field name="Description">Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)</field>
+      </fields>
+      <libsource lib="110990030" part="110990030" description="Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)"/>
+      <property name="Height" value="8.6"/>
+      <property name="Mouser Part Number" value="713-110990030"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Seeed-Studio/110990030?qs=1%252B9yuXKSi8Dw9fpnq%252BdNzQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Seeed Studio"/>
+      <property name="Manufacturer_Part_Number" value="110990030"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>500fdab4-ae21-4158-84f6-c4fa2347ff4e</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Screw_Terminal_01x08</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-8_P5.08mm</footprint>
+      <datasheet>https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-8-508-1729186?type=pdf</datasheet>
+      <description>Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="1729186">1729186</field>
+        <field name="Footprint">TerminalBlock:TerminalBlock_bornier-8_P5.08mm</field>
+        <field name="Datasheet">https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkdsn-15-8-508-1729186?type=pdf</field>
+        <field name="Description">Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x08" description="Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="1729186" value="1729186"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebbfbeb1-dd84-4e63-9446-54189539960f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>60</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF62R0</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF62R0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0ddab04-11e8-435a-a780-10d39a2c6210</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>60</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF62R0</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF62R0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b6844d6-ee61-4762-9ce3-edd285ace73b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF1002</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF1002"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>902c26ac-5c10-4eae-88af-29a30af1d5c8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF1002</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF1002"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a8f5347-cc81-44f9-9985-b596075d2146</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF1002</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF1002"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21aee75b-ae5a-40dc-bca3-962fd131f9d2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF1002</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF1002"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a558b82-9856-4977-a249-b9e33ca6cdc5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF1002</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF1002"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b1d8ef6-b00f-4862-92de-49b21bc78759</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF2001</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF2001"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e97525-1f33-473d-b7cd-7fc44cf06b4e</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>22ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">KTR18EZPF22R0</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="KTR18EZPF22R0"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e909ffad-65da-4644-84ba-92832d36177b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLE9371VSJ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.infineon.com/cms/en/product/transceivers/automotive-transceiver/automotive-can-transceivers/tle9371vsj/</datasheet>
+      <description>High-Speed CAN signal improvement transceiver</description>
+      <fields>
+        <field name="LCSC#"/>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">726-TLE9371VSJXTMA1</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.infineon.com/cms/en/product/transceivers/automotive-transceiver/automotive-can-transceivers/tle9371vsj/</field>
+        <field name="Description">High-Speed CAN signal improvement transceiver</field>
+      </fields>
+      <libsource lib="CAN_Shield" part="TCAN1051HGV-Q1" description="High-Speed CAN Transceiver, 3.3V supply"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="726-TLE9371VSJXTMA1"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="High-Speed CAN Transceiver"/>
+      <property name="ki_fp_filters" value="SOT?23* SOIC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bc15f0c-b0f3-4e5a-94ff-edeb96e36e85</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>2EDN7534F</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/pm8834.pdf</datasheet>
+      <description>4A dual low-side MOSFET driver, SOIC-8</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.st.com/resource/en/datasheet/pm8834.pdf</field>
+        <field name="Description">4A dual low-side MOSFET driver, SOIC-8</field>
+      </fields>
+      <libsource lib="Driver_FET" part="PM8834" description="4A dual low-side MOSFET driver, SOIC-8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="mosfet driver"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82de6541-d14d-449d-800e-714f6f43b805</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>2EDN7534F</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.st.com/resource/en/datasheet/pm8834.pdf</datasheet>
+      <description>4A dual low-side MOSFET driver, SOIC-8</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.st.com/resource/en/datasheet/pm8834.pdf</field>
+        <field name="Description">4A dual low-side MOSFET driver, SOIC-8</field>
+      </fields>
+      <libsource lib="Driver_FET" part="PM8834" description="4A dual low-side MOSFET driver, SOIC-8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="CAN_Shield_UNO.kicad_sch"/>
+      <property name="ki_keywords" value="mosfet driver"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ebe76e0-c707-496f-ba70-6addc8a30300</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="110990030" part="110990030">
+      <description>Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)</description>
+      <docs>https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">110990030</field>
+        <field name="Footprint">110990030</field>
+        <field name="Datasheet">https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf</field>
+        <field name="Description">Seeed Studio Accessories Grove - Universal 4 pin connector Female Header (4-pin/ 2mm)</field>
+        <field name="Height">8.6</field>
+        <field name="Mouser Part Number">713-110990030</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Seeed-Studio/110990030?qs=1%252B9yuXKSi8Dw9fpnq%252BdNzQ%3D%3D</field>
+        <field name="Manufacturer_Name">Seeed Studio</field>
+        <field name="Manufacturer_Part_Number">110990030</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CAN_Shield" part="TCAN1051HGV-Q1">
+      <description>High-Speed CAN Transceiver, 3.3V supply</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>SOIC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">TCAN1051HGV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">High-Speed CAN Transceiver, 3.3V supply</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="input"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x08">
+      <description>Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_Shielded" part="Conn_02x04_Counter_Clockwise_Shielded">
+      <description>Generic shielded connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??-1SH*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">~</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic shielded connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR0540">
+      <description>40V 0.5A Schottky Power Rectifier Diode, SOD-123</description>
+      <docs>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0540</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</field>
+        <field name="Description">40V 0.5A Schottky Power Rectifier Diode, SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="PM8834">
+      <description>4A dual low-side MOSFET driver, SOIC-8</description>
+      <docs>http://www.st.com/resource/en/datasheet/pm8834.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PM8834</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.st.com/resource/en/datasheet/pm8834.pdf</field>
+        <field name="Description">4A dual low-side MOSFET driver, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN1" type="input"/>
+        <pin num="2" name="PWM1" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="PWM2" type="input"/>
+        <pin num="5" name="OUT2" type="output"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="OUT1" type="output"/>
+        <pin num="8" name="EN2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged123">
+      <description>Solder Jumper, 3-pole, pins 1+2+3 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged123</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 3-pole, pins 1+2+3 closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Capacitor_AKL" part="CP_SMD_D6.3mm_H7.7mm">
+      <description>SMD Electrolytic Capacitor, 6.3mm Diameter, 7.7mm Height, European Symbol, Alternate KiCad Library</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_SMD_D6.3mm_H7.7mm</field>
+        <field name="Footprint">PCM_Capacitor_SMD_AKL:CP_Elec_6.3x7.7</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">SMD Electrolytic Capacitor, 6.3mm Diameter, 7.7mm Height, European Symbol, Alternate KiCad Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Diode_Schottky_AKL" part="STPS3L40UF">
+      <description>SMBFL Schottky diode, 40V, 3A, Alternate KiCAD Library</description>
+      <docs>https://www.tme.eu/Document/dd24d122e362fb2fc1d97f4b9052163a/stps3l40.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">STPS3L40UF</field>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SMBFL</field>
+        <field name="Datasheet">https://www.tme.eu/Document/dd24d122e362fb2fc1d97f4b9052163a/stps3l40.pdf</field>
+        <field name="Description">SMBFL Schottky diode, 40V, 3A, Alternate KiCAD Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Diode_TVS_AKL" part="SD05">
+      <description>SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library</description>
+      <docs>https://www.tme.eu/Document/eacd5c9033c0f01cb2a4469e7989f2d1/sd05.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SD05</field>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SOD-323</field>
+        <field name="Datasheet">https://www.tme.eu/Document/eacd5c9033c0f01cb2a4469e7989f2d1/sd05.pdf</field>
+        <field name="Description">SOD-323 Unidirectional TVS diode, 5V, 350W, Alternate KiCAD Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCM_Diode_TVS_AKL" part="SMBJ16A">
+      <description>SMB Unidirectional TVS diode, 16V, 600W, Alternate KiCAD Library</description>
+      <docs>https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMBJ16A</field>
+        <field name="Footprint">PCM_Diode_SMD_AKL:D_SMB</field>
+        <field name="Datasheet">https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf</field>
+        <field name="Description">SMB Unidirectional TVS diode, 16V, 600W, Alternate KiCAD Library</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TL4050A50IDBZT" part="TL4050A50IDBZT">
+      <description>Precision micropower shunt voltage reference</description>
+      <docs>http://www.ti.com/lit/gpn/TL4050A</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TL4050A50IDBZT</field>
+        <field name="Footprint">SOT95P237X112-3N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/TL4050A</field>
+        <field name="Description">Precision micropower shunt voltage reference</field>
+        <field name="Height">1.12</field>
+        <field name="Mouser Part Number">595-TL4050A50IDBZT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL4050A50IDBZT?qs=ghbYPfulOXuRrp0sOcZ8iQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TL4050A50IDBZT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CATHODE" type="passive"/>
+        <pin num="2" name="ANODE_1" type="passive"/>
+        <pin num="3" name="ANODE_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="110990030">
+      <uri>C:\Users\Imre\Desktop\CAN_Shield_UNO/LIB_110990030/110990030.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_Shielded">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Connector_Generic_Shielded.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\9.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Capacitor_AKL">
+      <uri>C:\Users\Imre\Documents\KiCad\9.0\3rdparty/symbols/com_github_dawidcislo_alternate-kicad-library/Capacitor_AKL.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Diode_Schottky_AKL">
+      <uri>C:\Users\Imre\Documents\KiCad\9.0\3rdparty/symbols/com_github_dawidcislo_alternate-kicad-library/Diode_Schottky_AKL.kicad_sym</uri>
+    </library>
+    <library logical="PCM_Diode_TVS_AKL">
+      <uri>C:\Users\Imre\Documents\KiCad\9.0\3rdparty/symbols/com_github_dawidcislo_alternate-kicad-library/Diode_TVS_AKL.kicad_sym</uri>
+    </library>
+    <library logical="TL4050A50IDBZT">
+      <uri>C:\Users\Imre\Desktop\CAN_Shield_UNO/LIB_TL4050A50IDBZT/TL4050A50IDBZT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VIO" pintype="input"/>
+    </net>
+    <net code="3" name="/*3" class="Default">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/*6" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/*9" class="Default">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/*11" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/2" class="Default">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="8" name="/7" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/8" class="Default">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="10" name="/12" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="11" name="/A0" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="12" name="/A1" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="13" name="/A2" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/A3" class="Default">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="15" name="/AREF" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/CRX0_MINIMA" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="17" name="/CRX0_WIFI" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="18" name="/CTX0_MINIMA" class="Default">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="19" name="/CTX0_WIFI" class="Default">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/IOREF" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="21" name="/RX/0" class="Default">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="22" name="/SCL/A5" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="23" name="/SDA/A4" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="24" name="/TX/1" class="Default">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="25" name="/~{RESET}" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="26" name="GND" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="ANODE_1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="ANODE_2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="27" name="Net-(D4-K)" class="Default">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(D5-K)" class="Default">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(D6-K)" class="Default">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="OUT1" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(D7-K)" class="Default">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUT2" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(D10-A)" class="Default">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC1-CATHODE)" class="Default">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="CATHODE" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J5-Pin_5)" class="Default">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(J5-Pin_7)" class="Default">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(J7-Pin_1)" class="Default">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(J7-Pin_2)" class="Default">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(JP1-A)" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(JP1-B)" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(JP1-C)" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(JP2-B)" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="S" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U4-PWM1)" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="PWM1" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(U4-PWM2)" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="PWM2" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(U5-PWM1)" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="PWM1" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(U5-PWM2)" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="PWM2" pintype="input"/>
+    </net>
+    <net code="45" name="VCC" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="EN1" pintype="input"/>
+      <node ref="U4" pin="6" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="EN2" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="EN1" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="46" name="unconnected-(J1-Pin_1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

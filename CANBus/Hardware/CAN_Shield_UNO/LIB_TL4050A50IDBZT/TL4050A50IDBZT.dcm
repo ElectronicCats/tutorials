@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL4050A50IDBZT
+D Precision micropower shunt voltage reference
+K
+F http://www.ti.com/lit/gpn/TL4050A
+$ENDCMP
+#
+#End Doc Library
