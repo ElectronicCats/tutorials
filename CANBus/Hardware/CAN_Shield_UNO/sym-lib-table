@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "110990030")(type "KiCad")(uri "${KIPRJMOD}/LIB_110990030/110990030.kicad_sym")(options "")(descr ""))
+  (lib (name "TL4050A50IDBZT")(type "KiCad")(uri "${KIPRJMOD}/LIB_TL4050A50IDBZT/TL4050A50IDBZT.kicad_sym")(options "")(descr ""))
+)
