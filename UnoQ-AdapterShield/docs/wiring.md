@@ -19,7 +19,7 @@ The GIGA Display Shield (ASX00039) was designed for the Arduino GIGA R1, not the
 | 3V3 (shield) | **53** or **55** | **58** or **60** | +3V3 | power | — |
 | GND | any GND on JMISC | any GND on JMEDIA | - | ground | — |
 
-Find the schematics in [HW](HW/AdapterShield).
+Find the schematics in [HW](https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield/HW/AdapterShield).
 
 ## Pitfalls
 
