@@ -1,0 +1,4 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","Manf#","Proveedor"
+"J1,J2","Conn_02x30_Odd_Even","https://www.mouser.mx/ProductDetail/Samtec/FTSH-130-04-L-DV?qs=0lQeLiL1qyYIRZZeyjCnUw%3D%3D","Connector_PinHeader_1.27mm:PinHeader_2x30_P1.27mm_Vertical_SMD","2","","FTSH-130-04-L-DV","Mouser"
+"J4","Conn_02x12_Odd_Even","https://www.mouser.com/ProductDetail/Samtec/HLE-112-02-G-DV-BE?qs=0lQeLiL1qyYE7KJ0Qra1%252Bw%3D%3D&srsltid=AfmBOookb3nnkMefkp6Jn-vgFjxH7K_vmCYCqJU7nE-dIFTdhJ7xijNC","Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical_SMD","1","","HLE-112-02-G-DV-BE","Mouser"
+"J3","Conn_02x10_Odd_Even","https://www.mouser.com/ProductDetail/Samtec/HLE-110-02-G-DV-BE?qs=0lQeLiL1qyZ1jzHNLcK7mA%3D%3D","Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical_SMD","1","","HLE-110-02-G-DV-BE","Mouser"

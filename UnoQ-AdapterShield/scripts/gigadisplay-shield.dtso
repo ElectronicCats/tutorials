@@ -1,0 +1,86 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR BSD-3-Clause)
+/*
+ * Arduino GIGA Display Shield (ASX00039) overlay para Arduino UNO Q.
+ *
+ * Activa el panel DSI ST7701 (480x800) del shield y añade el node gt911@14
+ * para el chip touch GT911 cableado al qup0 GENI (i2c@4a80000).
+ *
+ * Targets kernel 7.0.0-g122c2c22d838+ (rama qcom-v7.0.0-unoq del repo
+ * arduino/linux-qcom). Requiere el módulo panel-sitronix-st7701.ko CON el
+ * descriptor `arduino,giga-display` backported desde 6.16.7 — Arduino
+ * eliminó ese descriptor del driver en 7.0.0 (ver scripts/
+ * enable-gigadisplay-shield.sh y docs/HANDOFF.md §12 para detalles).
+ *
+ * Aplicar con:
+ *   dtc -I dts -O dtb -o gigadisplay-shield.dtbo gigadisplay-shield.dtso
+ *   fdtoverlay -i base.dtb -o out.dtb gigadisplay-shield.dtbo
+ *
+ * GPIO flags (hardcoded para evitar dependencia de headers):
+ *   GPIO_ACTIVE_HIGH = 0
+ *   IRQ_TYPE_EDGE_FALLING = 2
+ */
+
+/dts-v1/;
+/plugin/;
+
+/ {
+	reg_dldo2: reg-dldo2 {
+		compatible = "regulator-fixed";
+		regulator-name = "mipi_panel_reg";
+		regulator-min-microvolt = <3300000>;
+		regulator-max-microvolt = <3300000>;
+		regulator-always-on;
+	};
+
+	reg_bl: reg-bl {
+		compatible = "regulator-fixed";
+		regulator-name = "mipi_panel_backlight";
+		regulator-min-microvolt = <3300000>;
+		regulator-max-microvolt = <3300000>;
+		regulator-always-on;
+	};
+};
+
+&mdss_dsi0 {
+	vdda-supply = <&pm4125_l5>;
+	status = "okay";
+
+	#address-cells = <1>;
+	#size-cells = <0>;
+
+	panel@0 {
+		compatible = "arduino,giga-display", "sitronix,st7701";
+		reg = <0x0>;
+		VCC-supply = <&reg_dldo2>;
+		IOVCC-supply = <&reg_dldo2>;
+		reset-gpios = <&tlmm 2 0>;	/* GPIO_ACTIVE_HIGH */
+		dsi-lanes = <2>;
+		video-mode = <2>;	/* non-burst con sync pulse */
+		status = "okay";
+
+		port {
+			panel0_in: endpoint {
+				remote-endpoint = <&mdss_dsi0_out>;
+			};
+		};
+	};
+};
+
+&mdss_dsi0_out {
+	remote-endpoint = <&panel0_in>;
+	data-lanes = <0 1>;
+};
+
+&i2c0 {
+	#address-cells = <1>;
+	#size-cells = <0>;
+	status = "okay";
+
+	touch@14 {
+		compatible = "goodix,gt911";
+		reg = <0x14>;
+		interrupts-extended = <&tlmm 98 2>;	/* IRQ_TYPE_EDGE_FALLING */
+		irq-gpios = <&tlmm 98 0>;		/* GPIO_ACTIVE_HIGH */
+		reset-gpios = <&tlmm 18 0>;		/* GPIO_ACTIVE_HIGH */
+	};
+};
