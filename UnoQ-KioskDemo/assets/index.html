@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino UNO Q Kiosk Dashboard</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-snap-type: y mandatory;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f0f2f5;
+            overflow-y: auto;
+        }
+
+        .widget-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            height: 100vh;
+            scroll-snap-align: start;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin: 20px;
+            border-radius: 20px;
+            background: white;
+
+            box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+        }
+
+        .title {
+            font-size: 2.5rem;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+
+        .value {
+            font-size: 8rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .unit {
+            font-size: 4rem;
+        }
+
+        .temp-color {
+            color: #ff5722;
+        }
+
+        .hum-color {
+            color: #00bcd4;
+        }
+    </style>
+
+    <!-- Main Socket.IO dependency running locally on the MPU -->
+    <script src="libs/socket.io.min.js"></script>
+</head>
+
+<body>
+
+<div class="widget-container">
+
+    <!-- Temperature Slide Card -->
+    <section class="card">
+        <p class="title">Temperature</p>
+        <p class="value temp-color">
+            <span id="temp-val">--</span><span class="unit">°C</span>
+        </p>
+    </section>
+
+    <!-- Humidity Slide Card -->
+    <section class="card">
+        <p class="title">Humidity</p>
+        <p class="value hum-color">
+            <span id="hum-val">--</span><span class="unit">%</span>
+        </p>
+    </section>
+
+</div>
+
+<script>
+    // Automatically connects to the local Python WebSocket server
+    const socket = io();
+
+    // Listen for incoming real-time temperature events
+    socket.on('temperature', (data) => {
+        if (data && data.value !== undefined) {
+            // Update the DOM element with the formatted float value
+            document.getElementById('temp-val').innerText =
+                Number(data.value).toFixed(1);
+        }
+    });
+
+    // Listen for incoming real-time humidity events
+    socket.on('humidity', (data) => {
+        if (data && data.value !== undefined) {
+            // Update the DOM element with the formatted float value
+            document.getElementById('hum-val').innerText =
+                Number(data.value).toFixed(1);
+        }
+    });
+</script>
+
+</body>
+</html>

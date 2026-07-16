@@ -1,0 +1,6 @@
+name: UnoQKioskMode
+description: The Arduino UNO Q combines a Linux-capable Qualcomm® processor (MPU) with an STM32 microcontroller (MCU). This architecture enables developers to
+ports: []
+bricks:
+- arduino:web_ui: {}
+icon: 🚨
