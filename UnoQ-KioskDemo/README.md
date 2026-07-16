@@ -44,7 +44,7 @@ As a demo, it reads real-time temperature and humidity from a Modulino sensor. E
 # Features
 
 * **Full-screen Kiosk UI:** Clean, large-scale typography optimized for embedded touch displays.
-* **Hardware Integration:** Showcases custom carrier PCB routing for DSI video output and I²C touch interfaces.
+* **Hardware Integration:** Showcases Electronic Cats Adapter Shield (a custom carrier PCB) routing for DSI video output and I²C touch interfaces.
 * **Asynchronous Dual-Core Flow:** Seamless RPC (Remote Procedure Call) event notification from the STM32 MCU to the Qualcomm Linux MPU.
 * **Ultra-Lightweight Frontend:** Avoids bulky charting libraries or complex CSS wrappers; uses native CSS Snap-Scrolling (`scroll-snap-type`) for card transitions.
 * **Web-based UI:** Implemented natively via WebUI - HTML Brick and Python.
@@ -57,12 +57,12 @@ As a demo, it reads real-time temperature and humidity from a Modulino sensor. E
 This demonstration requires the following hardware components:
 
 * Arduino UNO Q
-* Custom Carrier PCB (GIGA Display adapter)
+* Electronic Cats Adapter Shield
 * Arduino GIGA Display
 * MODULINO® Thermo (or equivalent I²C climate sensor)
 * USB-C cable for power
 
-The custom carrier PCB bridges the high-speed **DSI (Digital Serial Interface)** for video processing and the **I²C bus** required by the display's capacitive touch controller.
+The Adapter Shield bridges the high-speed **DSI (Digital Serial Interface)** for video processing and the **I²C bus** required by the display's capacitive touch controller.
 
 ---
 
@@ -88,7 +88,7 @@ The custom carrier PCB bridges the high-speed **DSI (Digital Serial Interface)**
        | Reads MODULINO Thermo via I2C        |
        +------------------+-------------------+
                           |
-                  Custom Carrier PCB
+                  Electronic Cats Adapter Shield
                           |
              Arduino GIGA Display Touch
 
@@ -120,7 +120,7 @@ Before deploying this application, ensure that the underlying custom hardware an
 
 ## Hardware
 
-* Assembled Custom Carrier PCB connected to the UNO Q.
+* Electronic Cats Adapter Shield connected to the UNO Q.
 * Arduino GIGA Display mounted onto the carrier.
 * MODULINO Thermo connected via the Wire1 I²C port.
 
@@ -133,7 +133,7 @@ Component tracking repositories:
 
 | Component | Repository / Resource |
 | --- | --- |
-| Custom Carrier PCB | https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield/HW/AdapterShield |
+| Electronic Cats Adapter Shield | https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield/HW/AdapterShield |
 | Linux Display & Touch Drivers | https://github.com/ElectronicCats/tutorials/releases/tag/v1.0_AdapterShield |
 | Installation instructions (Linux Display & Touch Drivers) | https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield |
 
@@ -293,7 +293,7 @@ This ecosystem implementation represents a collaborative engineering effort:
 | --- | --- |
 | Arduino App Lab Ecosystem | Arduino s.r.l. |
 | Home Climate Reference Design | Arduino s.r.l. |
-| Custom Carrier PCB Engineering | AndreaZGuz |
+| Adapter Shield Engineering | AndreaZGuz |
 | Linux Display Panel Driver | sabas1080/AndreaZGuz |
 | Linux Capacitive Touch Driver | sabas1080 |
 | Kiosk OS-Level Configurations | sabas1080/victorman-sd |
