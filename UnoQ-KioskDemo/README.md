@@ -133,8 +133,10 @@ Component tracking repositories:
 
 | Component | Repository / Resource |
 | --- | --- |
-| Custom Carrier PCB | https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield |
+| Custom Carrier PCB | https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield/HW/AdapterShield |
 | Linux Display & Touch Drivers | https://github.com/ElectronicCats/tutorials/releases/tag/v1.0_AdapterShield |
+| Installation instructions (Linux Display & Touch Drivers) | https://github.com/ElectronicCats/tutorials/tree/main/UnoQ-AdapterShield |
+
 
 ---
 
@@ -167,11 +169,14 @@ sketch/sketch.ino
 ## Option 2 — Clone this repository
 
 ```bash
-git clone [https://github.com/victorman-sd/unoq-giga-display-kiosk-demo.git](https://github.com/victorman-sd/unoq-giga-display-kiosk-demo.git)
+git clone https://github.com/ElectronicCats/tutorials
 
 ```
+> **Note**
+> You can download the ZIP code as well. Navigate to this repository ➔ Code ➔ Download ZIP.
 
-1. Import the directory as an existing project inside your Arduino App Lab instance.
+1. Inside the *tutorials* folder, find the *UnoQ-KioskDemo*. Compress this folder to a ZIP file.
+2. Import the ZIP file as an existing project inside your Arduino App Lab instance.
 2. Add the Arduino_Modulino library: App Menu ➔ Add Sketch Library ➔ Type "Arduino_Modulino" in the browser ➔ Click on "Install".
 3. Click **Run** to provision the board.
 
