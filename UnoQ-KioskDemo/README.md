@@ -1,6 +1,6 @@
 # Arduino UNO Q Kiosk Demo with GIGA Display
 
-> A reference implementation demonstrating how to build a kiosk-style Human-Machine Interface (HMI) on the Arduino UNO Q using an Arduino GIGA Display connected through a custom carrier PCB.
+> A reference implementation demonstrating how to build a kiosk-style Human-Machine Interface (HMI) on the Arduino UNO Q using an Arduino GIGA Display connected through the Electronic Cats Adapter Shield.
 
 ---
 
@@ -10,7 +10,7 @@ The Arduino UNO Q combines a Linux-capable Qualcomm® processor (MPU) with an ST
 
 This project is a **proof of concept** demonstrating collaborative work across hardware, kernel-level drivers, and user space software:
 
-1. **Hardware:** A custom carrier PCB that routes the DSI video and I²C touch lines from the UNO Q to an Arduino GIGA Display.
+1. **Hardware:** A custom PCB (Adapter Shield) that routes the DSI video and I²C touch lines from the UNO Q to an Arduino GIGA Display.
 2. **Drivers:** Custom Linux display and touch panel drivers to make the GIGA Display fully operational on the UNO Q Debian environment.
 3. **Application:** A minimalist, full-screen kiosk UI.
 
@@ -44,7 +44,7 @@ As a demo, it reads real-time temperature and humidity from a Modulino sensor. E
 # Features
 
 * **Full-screen Kiosk UI:** Clean, large-scale typography optimized for embedded touch displays.
-* **Hardware Integration:** Showcases Electronic Cats Adapter Shield (a custom carrier PCB) routing for DSI video output and I²C touch interfaces.
+* **Hardware Integration:** Showcases Electronic Cats Adapter Shield routing for DSI video output and I²C touch interfaces.
 * **Asynchronous Dual-Core Flow:** Seamless RPC (Remote Procedure Call) event notification from the STM32 MCU to the Qualcomm Linux MPU.
 * **Ultra-Lightweight Frontend:** Avoids bulky charting libraries or complex CSS wrappers; uses native CSS Snap-Scrolling (`scroll-snap-type`) for card transitions.
 * **Web-based UI:** Implemented natively via WebUI - HTML Brick and Python.
@@ -88,9 +88,9 @@ The Adapter Shield bridges the high-speed **DSI (Digital Serial Interface)** for
        | Reads MODULINO Thermo via I2C        |
        +------------------+-------------------+
                           |
-                  Electronic Cats Adapter Shield
+             Electronic Cats Adapter Shield
                           |
-             Arduino GIGA Display Touch
+               Arduino GIGA Display Touch
 
 ```
 
@@ -122,7 +122,7 @@ Before deploying this application, ensure that the underlying custom hardware an
 
 * Electronic Cats Adapter Shield connected to the UNO Q.
 * Arduino GIGA Display mounted onto the carrier.
-* MODULINO Thermo connected via the Wire1 I²C port.
+* MODULINO Thermo connected via the QWIIC connector to the UNO Q (I²C port).
 
 ## Software & Drivers
 
