@@ -519,7 +519,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Support-7/Documents/Andrea/tutorials/UnoQ-ShieldAdapter/HW/AdapterShield/",
+      "plot": "C:/Users/Support-7/Documents/Andrea/tutorials/UnoQ-AdapterShield/HW/AdapterShield/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -530,7 +530,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "BOM_${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
